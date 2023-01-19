@@ -1,12 +1,9 @@
 from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 import unittest
 import f_project_keys
-from faker import Faker
 import time
 
 
